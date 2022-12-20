@@ -1,0 +1,44 @@
+/*  Заголовок */
+h1 {
+    /*  позиция текста */
+     text-align: left;
+}
+/*  таблица*/
+table {
+    /*  шрифт */
+    font-family: sans-serif;
+    /*  шположение в блоке */
+    text-align: center;
+    /*  положение границ */
+    border-collapse: separate;
+    /*  растояние между границими бок, вверх */
+    border-spacing: 40px 1rem;
+    /*  цвет фона*/
+    background: rgb(191, 224, 209);
+    /*  цвет текста*/
+    color: black;
+    /*  граница */
+    border: 16px solid rgb(229, 229, 241);
+       /*  скругления углов*/
+    border-radius: 50px;
+}
+/*  ячейка*/
+td { 
+    /*  фон ячейки*/
+    background: rgb(238, 242, 233);
+     /*  размер ячейки*/
+    font-size: 40px;
+    /*  отступ ячейки*/
+    margin-right: 5px; 
+}
+/*  первая ячейка*/
+td:first-child {
+    
+    background: rgb(175, 244, 234);
+}
+table, th, td {
+    /*  отступы*/
+border-style: solid;
+border-width: 20px 20px 20px 20px;
+border-color: white;
+}
