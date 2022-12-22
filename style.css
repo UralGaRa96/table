@@ -1,3 +1,15 @@
+
+body {
+    /*внешнии отступы*/
+    margin: 0; 
+         /*минимальная высота области осмотра*/
+    min-height: 100vh;
+         /*делаем флекс контейнер*/
+    display: flex;
+         /*выравниваем этот контейнер по центру главной и поперечной оси*/
+     justify-content: center;
+     align-items: center;
+}
 /*  Заголовок */
 h1 {
     /*  позиция текста */
@@ -12,7 +24,7 @@ table {
     /*  положение границ */
     border-collapse: separate;
     /*  растояние между границими бок, вверх */
-    border-spacing: 40px 1rem;
+    border-spacing: 80px 2rem;
     /*  цвет фона*/
     background: rgb(191, 224, 209);
     /*  цвет текста*/
@@ -20,16 +32,16 @@ table {
     /*  граница */
     border: 16px solid rgb(229, 229, 241);
        /*  скругления углов*/
-    border-radius: 50px;
+    border-radius: 20px;
 }
 /*  ячейка*/
 td { 
     /*  фон ячейки*/
-    background: rgb(238, 242, 233);
+    background: rgb(181, 181, 248);
      /*  размер ячейки*/
-    font-size: 40px;
+    font-size: 30px;
     /*  отступ ячейки*/
-    margin-right: 5px; 
+    margin-right: 20px; 
 }
 /*  первая ячейка*/
 td:first-child {
@@ -39,6 +51,57 @@ td:first-child {
 table, th, td {
     /*  отступы*/
 border-style: solid;
-border-width: 20px 20px 20px 20px;
+border-width: 1px 1px 1px 1px;
 border-color: white;
+}
+
+.catbtn {
+    font-size: 50px;
+}
+
+form {
+    margin:  5px;
+    background: rgb(140, 184, 216);
+    width: 200px;
+    height: 490px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 82);
+    border-radius: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.group1 {
+    margin: 10px;
+    padding: 5px;
+}
+.group2 {
+    margin: 10px;
+    padding: 5px;
+}
+.group3 {
+    margin: 10px;
+    padding: 5px;
+}
+.group4 {
+    margin: 10px;
+    padding: 5px;
+}
+.group5 {
+    margin: 10px;
+    padding: 5px;
+}
+
+label {
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+input {
+    margin-top: 10px;
+    height: 30px;
+    width: 165px;
+    border-radius: 5px/5px;
 }
